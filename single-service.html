@@ -1,28 +1,28 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang="pt-br">
 
 <head>
 
     <meta charset="utf-8">
 
-    <title id="titulo">PathSoft - #1 The Fastest HTML5 Template</title>
+    <title id="titulo"></title>
 
     <meta name="description" content="Description">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
         
-    <link rel="icon" href="assets/img/favicon/favicon.ico" type="image/x-icon"> 
+    <link rel="icon" href="assets/img/Unita/favicon.png" type="image/x-icon"> 
 
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
-<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/source-sans-pro-v21-latin/source-sans-pro-v21-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/montserrat-v25-latin/montserrat-v25-latin-600.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/material-icons/material-icons.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/material-icons/material-icons-outlined.woff2" as="font" type="font/woff2" crossorigin>
 
-<script src="assets/js/empresas.js"></script>
+    <script src="assets/js/empresas.js"></script>
 </head>
 
 <body>
@@ -49,14 +49,14 @@
 						<div class="col-12">
 							<ul class="bread-crumbs-list">
 								<li>
-									<a href="index.html">Home</a>
+									<a href="index.html">Páginal inicial</a>
 									<i class="material-icons md-18">chevron_right</i>
 								</li>
 								<li>
-									<a href="services.html">Services</a>
+									<a href="services.html">Serviços</a>
 									<i class="material-icons md-18">chevron_right</i>
 								</li>
-								<li>Corporate Solutions</li>
+								<li id="nome_empresa"></li>
 							</ul>
 						</div>
 					</div>
@@ -68,21 +68,16 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="section-heading heading-center section-heading-animate">
-								<h1>Corporate Solutions</h1>
 							</div>
 							<div class="content">
-								<div class="item-bordered item-border-radius">
-									<img src="assets/img/subheader-corporate.png" alt="">
+								<div class="" style="display: flex; align-items: center; justify-content: center;">
+									<img id="img_empresa" width="80%" height="auto" src="" alt="">
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur aliquet quam id dui posuere blandit. Vivamus suscipit tortor eget felis porttitor volutpat. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
-								<h5>Key Features</h5>
-								<ul>
-									<li>High usability</li>
-									<li>Improved performance</li>
-									<li>Customizable interface</li>
-									<li>Crossplatform support</li>
-								</ul>
+								<h5>Principais áreas de atuação:</h5>
+								<div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px" id="lista_topicos">
+                                </div>
+                                <div id="btn_site" class="form-btn form-btn-wide col-12" style="display: flex; justify-content: center;">
+                                </div>
 							</div>
 						</div>
 					</div>
@@ -94,8 +89,8 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="section-heading heading-center section-heading-animate">
-								<div class="section-subheading">Liked the service?</div>
-								<h2>Order service</h2>
+								<div class="section-subheading"></div>
+								<h2 id="fale_conosco_titulo"></h2>
 							</div>
 							<form action="#!" method="post" class="order-form">
 								<!-- Begin hidden Field for send form -->
@@ -104,19 +99,19 @@
 								<div class="row gutters-20 justify-content-center">
 									<div class="col-lg-3 col-md-4 col-sm-6 col-12">
 										<div class="form-field">
-											<label for="order-name" class="form-field-label">Your Name</label>
+											<label for="order-name" class="form-field-label">Nome</label>
 											<input type="text" class="form-field-input" name="orderName" value="" autocomplete="off" id="order-name">
 										</div>
 									</div>
 									<div class="col-lg-3 col-md-4 col-sm-6 col-12">
 										<div class="form-field">
-											<label for="order-phone" class="form-field-label">Your Phone</label>
+											<label for="order-phone" class="form-field-label">Telefone</label>
 											<input type="tel" class="form-field-input mask-phone" name="orderPhone" value="" autocomplete="off" id="order-phone">
 										</div>
 									</div>
 									<div class="col-lg-3 col-md-4 col-12">
 										<div class="form-btn form-btn-wide">
-											<button type="submit" class="btn btn-w240 ripple"><span>Order</span></button>
+											<button type="submit" class="btn btn-w240 ripple"><span>Enviar Mensagem</span></button>
 										</div>
 									</div>
 								</div>
@@ -131,7 +126,7 @@
 					<div class="row items">
 						<header class="col-12">
 							<div class="section-heading heading-center">
-								<h1>Other Services</h1>
+								<h1>Nossas empresas</h1>
 							</div>
 						</header>
 						<div class="col-12 item">
