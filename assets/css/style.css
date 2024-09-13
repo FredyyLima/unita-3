@@ -3338,6 +3338,10 @@ body.mmm-open .mmm {
     border-bottom-style: solid;
 }
 
+.main-mnu-btn{
+    display: none;
+}
+
 /* === 8. Media === */
 /*==========  Desktop First  ==========*/
 @media (max-width: 1199.98px) {
@@ -3384,7 +3388,7 @@ body.mmm-open .mmm {
     }
 
     .logo img {
-        max-height: 2.25rem;
+        max-height: 10rem;
     }
 
     .section-heading {

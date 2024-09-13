@@ -101,20 +101,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (document.getElementById("mobile_menu")) {
         document.getElementById("mobile_menu").innerHTML = `
-            						<li>
+            			<li>
 							<a href="index.html">Página inicial</a>
 						</li>
 						<li>
 							<a href="about-us.html">Sobre Nós</a>
-						</li>
-						<li>
-							<a href="services.html">Serviços</a>
-						</li>
-						<li>
-							<a href="tabs-and-accordions.html">Politica de privacidade</a>
-						</li>
-						<li>
-							<a href="news.html">Novidades</a>
 						</li>
 						<li>
 							<a href="contacts.html">Fale conosco</a>
@@ -414,7 +405,7 @@ const empresas = [
   </p>
         </br>`,
         "site": `<a href="https://brainalgorithms.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Brain Algorithms</span></a>`,
-        "fale_conosco": "Fale conosco a respeito da Brain Algorithmss"
+        "fale_conosco": "Fale conosco a respeito da Brain Algorithms"
     }
 ]
 
