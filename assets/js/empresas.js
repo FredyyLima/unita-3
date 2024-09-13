@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="widget-brand-info">
                         <div class="widget-brand-info-main">
                             <a href="index.html" class="logo" title="Unitá">
-                                <img src="assets/img/Unita/Logo_unita_vertical_branca.png" alt="Unitá Logo" data-loaded="true" style="opacity: 1;">
+                                <img src="assets/img/Unita/logo_unita_vertical_branca.png" alt="Unitá Logo" data-loaded="true" style="opacity: 1;">
                             </a>
                         </div>
                     </div>
@@ -298,7 +298,7 @@ const empresas = [
     {
         "id": 4,
         "nome": "BRZ Consultoria",
-        "logo": "assets/img/BRZ/BRZ.png",
+        "logo": "assets/img/BRZ/Logo_BRZ.jpg",
         "lista": `
         <div>
             <ul>
@@ -363,7 +363,7 @@ const empresas = [
     {
         "id": 5,
         "nome": "Jeed Mobilidade",
-        "logo": "assets/img/jeed/logo_jeed.png",
+        "logo": "assets/img/Jeed/logo_jeed.png",
         "lista": `
         <ul>
             <li>
