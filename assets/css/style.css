@@ -17,9 +17,9 @@ Version: 2.0.0
     --heading-font-size: 2.5rem;
     --heading-line-height: 1.3;
     --heading-font-weight: 700;
-    --accent-color: #186ADC;
-    --el-gradient-start: #1859B4;
-    --el-gradient-end: #0467F1;
+    --accent-color: #062b4d;
+    --el-gradient-start: #062b4d;
+    --el-gradient-end: #0c5192;
     --background-color: #ffffff;
     --background-secondary-color: #F0F4F8;
     --text-primary: #303036;
@@ -27,7 +27,7 @@ Version: 2.0.0
     --border-color: #D4D4E1;
     --placeholder-color: #6F6F76;
     --error-color: #ff3d0d;
-    --alert-primary: #0065D1;
+    --alert-primary: #062b4d;
     --alert-success: #1CAB55;
     --alert-danger: #E91C1C;
     --alert-warning: #C79C00;
@@ -2922,7 +2922,7 @@ body.mmm-open .mmm {
     width: 100%;
     white-space: nowrap;
     transition: all 0.4s;
-    color: var(--accent-color);
+    color: #b29756;
 }
 
 .main-mnu-list > li > a > span {

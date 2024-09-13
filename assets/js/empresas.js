@@ -18,10 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="footer-item">
                         <nav class="footer-nav">
                             <ul class="footer-mnu footer-mnu-line">
-                                <li><a href="#!" class="hover-link" data-title="Home"><span>Página Inicial</span></a></li>
-                                <li><a href="#!" class="hover-link" data-title="About us"><span>Sobre Nós</span></a></li>
-                                <li><a href="#!" class="hover-link" data-title="Services"><span>Serviços</span></a></li>
-                                <li><a href="#!" class="hover-link" data-title="Contacts"><span>Fale conosco</span></a></li>
+                                <li><a href="index.html" class="hover-link" data-title="Página inicial"><span>Página Inicial</span></a></li>
+                                <li><a href="about-us.html" class="hover-link" data-title="Sobre Nós"><span>Sobre Nós</span></a></li>
+                                <li><a href="contacts.html" class="hover-link" data-title="Fale conosco"><span>Fale conosco</span></a></li>
                             </ul>
                         </nav>
                     </div>
@@ -75,21 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
 									<li>
 										<a href="about-us.html" data-title="Sobre Nós">
 											<span>Sobre Nós</span>
-										</a>
-									</li>
-									<li>
-										<a href="services.html" data-title="Serviços">
-											<span>Serviços</span>
-										</a>
-									</li>
-									<li>
-										<a href="tabs-and-accordions.html" data-title="Política de privacidade">
-											<span>Política de privacidade</span>
-										</a>
-									</li>
-									<li>
-										<a href="news.html" data-title="Novidades">
-											<span>Novidades</span>
 										</a>
 									</li>
 									<li>
@@ -292,7 +276,7 @@ const empresas = [
             </li>
         </ul>
         `,
-        "site": `<a href="https://affarone.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Affarone Construção & Incorporação</span></a>`,
+        // "site": `<a href="https://affarone.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Affarone Construção & Incorporação</span></a>`,
         "fale_conosco": `Fale conosco a respeito da Affarone`
     },
     {
@@ -379,7 +363,7 @@ const empresas = [
     {
         "id": 5,
         "nome": "Jeed Mobilidade",
-        "logo": "assets/img/ezco/logo_ezco_horizontal.png",
+        "logo": "assets/img/jeed/logo_jeed.png",
         "lista": `
         <ul>
             <li>
@@ -390,7 +374,7 @@ const empresas = [
             </li>
         </ul>
         </br>`,
-        "site": `<a href="https://jeedmobilidade.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Jeed Mobilidade</span></a>`,
+        // "site": `<a href="https://jeedmobilidade.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Jeed Mobilidade</span></a>`,
         "fale_conosco": "Fale conosco a respeito da Jeed"
     },
     {
@@ -398,15 +382,36 @@ const empresas = [
         "nome": "Brain Algorithms",
         "logo": "assets/img/Brainalgorithms/logo_brain.png",
         "lista": `
-            <ul>
-                <li>
-                    A Brain Algorithms oferece soluções personalizadas para empresas em diversas áreas, utilizando algoritmos específicos para otimizar gestão,
-                    vendas, transporte, logística e outras funções. Com o uso de inteligência artificial e Internet das Coisas,
-                    a Brain amplia o acesso à informação, reduz incertezas e potencializa a produtividade e a rentabilidade das empresas,
-                    posicionando-as como líderes no mercado. A empresa tem como objetivo preparar seus clientes para a nova fase da Revolução da Informação,
-                    trazendo resultados que podem impactar significativamente o lucro e a eficiência operacional.
-                </li>
-            </ul>
+  <p>
+    A <strong>Brain Algorithms</strong> é uma empresa de tecnologia voltada para a criação de soluções avançadas utilizando 
+    Inteligência Artificial (IA) e Internet das Coisas (IoT), com o objetivo de potencializar a produtividade e a rentabilidade de empresas.
+  </p>
+
+  <p>
+    Com uma equipe altamente capacitada, a Brain Algorithms desenvolve algoritmos personalizados para resolver desafios específicos de 
+    setores como gestão, recursos humanos, logística, vendas, transporte e muito mais. Nossos cases de sucesso comprovam ganhos significativos, 
+    como um aumento de até 66% no lucro líquido das empresas atendidas.
+  </p>
+  <ul>
+    <li><strong>Inteligência Artificial:</strong> Implementamos soluções de IA para melhorar a tomada de decisões e automatizar processos, 
+    permitindo que as empresas se tornem mais eficazes e produtivas.</li>
+    
+    <li><strong>Internet das Coisas (IoT):</strong> A Brain utiliza IoT para ampliar o acesso à informação, monitorar operações em tempo real 
+    e reduzir incertezas, proporcionando maior controle sobre todas as etapas dos negócios.</li>
+
+    <li><strong>Big Data:</strong> Coletamos e analisamos grandes volumes de dados, transformando informações em estratégias valiosas que 
+    aumentam a competitividade no mercado.</li>
+  </ul>
+
+  <p>
+    A Brain Algorithms acredita que a transformação digital é o caminho para o sucesso nas próximas décadas. Ao integrar tecnologias emergentes 
+    às operações do dia a dia, proporcionamos um novo nível de eficiência e inovação às empresas que desejam se destacar no cenário global.
+  </p>
+
+  <p>
+    Explore como a <strong>Brain Algorithms</strong> pode revolucionar o seu negócio com soluções inteligentes e personalizadas, desenvolvidas 
+    para maximizar o seu potencial na Era da Informação.
+  </p>
         </br>`,
         "site": `<a href="https://brainalgorithms.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Brain Algorithms</span></a>`,
         "fale_conosco": "Fale conosco a respeito da Brain Algorithmss"
@@ -434,8 +439,15 @@ window.onload = function() {
         // document.getElementById("nome_empresa_h1").innerText = `${empresas[0].nome}`
         document.getElementById("titulo").innerText = `${empresas[index].nome}`
         document.getElementById("img_empresa").src = `${empresas[index].logo}`
+
+        if (empresas[index].nome === "Brain Algorithms"){
+            document.getElementById("img_empresa").style.backgroundColor ="#062b4d"
+        }
         document.getElementById("lista_topicos").innerHTML = `${empresas[index].lista}`
+
+        if(empresas[index].site != undefined){
         document.getElementById("btn_site").innerHTML = `${empresas[index].site}`
+        }
         document.getElementById("fale_conosco_titulo").innerText = `${empresas[index].fale_conosco}`
     }
 };
