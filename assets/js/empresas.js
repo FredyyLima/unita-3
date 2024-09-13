@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
 									<i class="material-icons material-icons-outlined">corporate_fare</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">Ezco Gestão em Saúde</h3>
-								<div class="iitem-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+								<div class="iitem-desc">Especialista em soluções inovadoras na área de saúde, a Ezco otimiza processos de gestão hospitalar e serviços de saúde, garantindo eficiência e qualidade no atendimento.</div>
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-12 item">
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
 									<i class="material-icons material-icons-outlined">support_agent</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">Affarone Construção & Incorporação</h3>
-								<div class="iitem-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it.</div>
+								<div class="iitem-desc">A Affarone se destaca na construção civil, desenvolvendo projetos residenciais, comerciais e industriais, com foco em sustentabilidade e inovação no setor imobiliário.</div>
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-12 col-12 item">
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
 									<i class="material-icons material-icons-outlined">cloud_download</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">Bel Fiore Gelato</h3>
-								<div class="iitem-desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</div>
+								<div class="iitem-desc">Especialista em sorvetes artesanais, a Belfiore Gelato traz sabores únicos e ingredientes naturais, proporcionando uma experiência refrescante e saborosa aos amantes de alimentos gelados.</div>
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-12 item">
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
 									<i class="material-icons material-icons-outlined">corporate_fare</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">BRZ Consultoria</h3>
-								<div class="iitem-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+								<div class="iitem-desc">A BRZ oferece consultoria estratégica para empresas e gestão pública, promovendo eficiência operacional, inovação e resultados transformadores em diversas áreas de negócios.</div>
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-12 item">
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
 									<i class="material-icons material-icons-outlined">corporate_fare</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">Jeed Mobilidade</h3>
-								<div class="iitem-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+								<div class="iitem-desc">Com soluções práticas em locação de veículos, a Jeed Mobilidade atende às necessidades de transporte, oferecendo flexibilidade e conveniência para empresas e clientes particulares.</div>
 							</a>
 						</div>
 						<div class="col-lg-4 col-md-6 col-12 item">
@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function() {
 									<i class="material-icons material-icons-outlined">corporate_fare</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">Brain Algorithms</h3>
-								<div class="iitem-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+								<div class="iitem-desc">A Brain Algorithms desenvolve soluções tecnológicas customizadas, utilizando inteligência artificial e IoT para otimizar a produtividade e reduzir incertezas em diversos setores empresariais.</div>
 							</a>
 						</div>
         `;
@@ -233,7 +233,7 @@ const empresas = [
             <li>Fornecimento de equipamentos e tecnologia em saúde</li>
         </ul>
             </br>
-        <ul style= "padding-left: 10px">
+        <ul>
             <h5>Tecnologia e soluções em saúde</h5>
             <li>Data Center (Big Data) de saúde</li>
             <li>Softwares de saúde</li>
@@ -298,68 +298,83 @@ const empresas = [
     {
         "id": 3,
         "nome": "Bel Fiore Gelato",
-        "logo": "assets/img/ezco/logo_ezco_horizontal.png",
+        "logo": "assets/img/Belfiore/Logo_belfiore_sem_fundo.png",
         "lista": `
         <ul>
-            <h5>Gestão na área da saúde</h5>
+            <h5>Nossa linha de produtos</h5>
 
-            <li>Gestão integral dos serviços de saúde</li>
-            <li>Contratação de recursos humanos e profissionais de saúde</li>
-            <li>Fornecimento de sistemas de saúde e gestão de indicadores</li>
-            <li>Terceirização de serviços de saúde</li>
-            <li>Gestão de hospitais e unidades de saúde (SAMU, UPA, UBS)</li>
-            <li>Fornecimento de medicamentos, materiais médicos, equipamentos e insumos</li>
-            <li>Fornecimento de equipamentos e tecnologia em saúde</li>
-        </ul>
-            </br>
-        <ul style= "padding-left: 10px">
-            <h5>Tecnologia e soluções em saúde</h5>
-            <li>Data Center (Big Data) de saúde</li>
-            <li>Softwares de saúde</li>
-            <li>Outsourcing de informática e equipamentos de saúde</li>
-            <li>Desenvolvimento de tecnologia para saúde</li>
-            <li>Cartão Saúde e Prontuário Eletrônico</li>
-            <li>TV Saúde</li>
-            <li>Gestor de filas</li>
-            <li>Sistema de Gestão de Saúde Pública</li>
-            <li>Sistema de Gestão Hospitalar</li>
-        </ul>
-        </br>`,
-        "site": `<a href="https://ezco.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Ezco Soluções em Gestão</span></a>`,
-        "fale_conosco": "Fale conosco a respeito da Ezco Soluções em Gestão"
+            <li><strong>AÇAÍKE:</strong> linha de açaí com sabores variados, perfeita para quem busca uma opção saudável e saborosa.</li>
+            <li><strong>GELATO:</strong> Sorbets cremosos que trazem o verdadeiro sabor em cada colherada.</li>
+            <li><strong>LOS PETALOS:</strong> Paletas recheadas, uma explosão de sabores e texturas que conquistam todos que provam.</li>
+            <li><strong>BELFRUTTI:</strong> Picolés refrescantes, ideais para se deliciar em qualquer momento do dia.</li>
+        </ul>`,
+        "site": `<a href="https://belfiorealimentos.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Bel Fiore Gelato</span></a>`,
+        "fale_conosco": "Fale conosco a respeito da Belfiore"
     },
     {
         "id": 4,
         "nome": "BRZ Consultoria",
-        "logo": "assets/img/ezco/logo_ezco_horizontal.png",
+        "logo": "assets/img/BRZ/BRZ.png",
         "lista": `
-        <ul>
-            <h5>Gestão na área da saúde</h5>
+        <div>
+            <ul>
+                <h5>Governo e serviços públicos</h5>
 
-            <li>Gestão integral dos serviços de saúde</li>
-            <li>Contratação de recursos humanos e profissionais de saúde</li>
-            <li>Fornecimento de sistemas de saúde e gestão de indicadores</li>
-            <li>Terceirização de serviços de saúde</li>
-            <li>Gestão de hospitais e unidades de saúde (SAMU, UPA, UBS)</li>
-            <li>Fornecimento de medicamentos, materiais médicos, equipamentos e insumos</li>
-            <li>Fornecimento de equipamentos e tecnologia em saúde</li>
-        </ul>
+                <h6> Assesoria e consultoria</h6>
+                <li>Banco Internacional de Reconstrução e Desenvolvimento</li>
+                <li>Assessoria à Consórcio intermunicipais e associações de municípios</li>
+                <li>Planos e programas de governo</li>
+                <li>Planejamento, orçamento e gestão</li>
+            </ul>
+                </br>
+            <ul>
+                <h6>Serviços</h6>
+                <li>Projetos para agências multilaterais de cooperação</li>
+                <li>Empréstimos e financiamentos nacionais e internacionais</li>
+                <li>Gestão de empresas públicas e autarquias</li>
+                <li>Concessão de ativos públicos</li>
+            </ul>
             </br>
-        <ul style= "padding-left: 10px">
-            <h5>Tecnologia e soluções em saúde</h5>
-            <li>Data Center (Big Data) de saúde</li>
-            <li>Softwares de saúde</li>
-            <li>Outsourcing de informática e equipamentos de saúde</li>
-            <li>Desenvolvimento de tecnologia para saúde</li>
-            <li>Cartão Saúde e Prontuário Eletrônico</li>
-            <li>TV Saúde</li>
-            <li>Gestor de filas</li>
-            <li>Sistema de Gestão de Saúde Pública</li>
-            <li>Sistema de Gestão Hospitalar</li>
-        </ul>
-        </br>`,
-        "site": `<a href="https://ezco.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Ezco Soluções em Gestão</span></a>`,
-        "fale_conosco": "Fale conosco a respeito da Ezco Soluções em Gestão"
+        </div>
+
+        <div>
+            <h5>Instituições e setor privado</h5>
+            <ul>    
+                <h6>Estratégia empresarial</h6>
+                <li>Montagem e análise de estudos de viabilidade</li>
+                <li>Reestruturação empresarial e financeira</li>
+                <li>Desenvolvimento de estudos e pesquisas de mercado</li>
+                <li>Desenvolvimento estratégico de empresas</li>
+                <li>Identificação de oportunidades</li>
+                <li>Planejamento tributário</li>
+                <li>Planejamento sucessório</li>
+                <li>Blindagem patrimonial</li>
+                <li>Desenvolvimento de soluções customizadas para empresas com utilização de IA</li>
+            </ul>
+                    </br>
+            <ul>    
+                <h6>Captação de recursos</h6>
+                <li>Operações de crédito</li>
+                <li>Captação via fundos de investimento</li>
+                <li>Renegociação e alongamento de passivos</li>
+                <li>Estruturação de venda de empresas e busca de investidores</li>
+                <li>M&A</li>
+                <li>Planejamento e coordenação de IPOs</li>
+                <li>Emissão de debêntures</li>
+            </ul>
+                                </br>
+            <ul>    
+                <h6>Governança empresarial</h6>
+                <li>Estruturação e coordenação de conselho de administração</li>
+                <li>Governança corporativa</li>
+                <li>Compliance</li>
+                <li>Auditoria preventiva e corretiva</li>
+                <li>Implantação de sistemas antifraude</li>
+            </ul>
+        </div>
+            </br>`,
+        "site": `<a href="https://brzparticipacoes.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>BRZ Consultoria</span></a>`,
+        "fale_conosco": "Fale conosco a respeito da BRZ"
     },
     {
         "id": 5,
@@ -367,65 +382,34 @@ const empresas = [
         "logo": "assets/img/ezco/logo_ezco_horizontal.png",
         "lista": `
         <ul>
-            <h5>Gestão na área da saúde</h5>
-
-            <li>Gestão integral dos serviços de saúde</li>
-            <li>Contratação de recursos humanos e profissionais de saúde</li>
-            <li>Fornecimento de sistemas de saúde e gestão de indicadores</li>
-            <li>Terceirização de serviços de saúde</li>
-            <li>Gestão de hospitais e unidades de saúde (SAMU, UPA, UBS)</li>
-            <li>Fornecimento de medicamentos, materiais médicos, equipamentos e insumos</li>
-            <li>Fornecimento de equipamentos e tecnologia em saúde</li>
-        </ul>
-            </br>
-        <ul style= "padding-left: 10px">
-            <h5>Tecnologia e soluções em saúde</h5>
-            <li>Data Center (Big Data) de saúde</li>
-            <li>Softwares de saúde</li>
-            <li>Outsourcing de informática e equipamentos de saúde</li>
-            <li>Desenvolvimento de tecnologia para saúde</li>
-            <li>Cartão Saúde e Prontuário Eletrônico</li>
-            <li>TV Saúde</li>
-            <li>Gestor de filas</li>
-            <li>Sistema de Gestão de Saúde Pública</li>
-            <li>Sistema de Gestão Hospitalar</li>
+            <li>
+            A Jeed Mobilidade é uma empresa especializada na locação de veículos, oferecendo soluções ágeis e flexíveis para empresas e indivíduos que buscam praticidade e economia.
+            Com uma frota diversificada e moderna, a Jeed atende às necessidades de transporte de diversos perfis de clientes, desde veículos para o uso cotidiano até opções para viagens
+            corporativas e turismo. A empresa se destaca pela qualidade no atendimento, pela manutenção rigorosa de seus veículos e por oferecer pacotes personalizados,
+            permitindo que seus clientes desfrutem de uma experiência segura e confortável.
+            </li>
         </ul>
         </br>`,
-        "site": `<a href="https://ezco.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Ezco Soluções em Gestão</span></a>`,
-        "fale_conosco": "Fale conosco a respeito da Ezco Soluções em Gestão"
+        "site": `<a href="https://jeedmobilidade.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Jeed Mobilidade</span></a>`,
+        "fale_conosco": "Fale conosco a respeito da Jeed"
     },
     {
         "id": 6,
         "nome": "Brain Algorithms",
-        "logo": "assets/img/ezco/logo_ezco_horizontal.png",
+        "logo": "assets/img/Brainalgorithms/logo_brain.png",
         "lista": `
-        <ul>
-            <h5>Gestão na área da saúde</h5>
-
-            <li>Gestão integral dos serviços de saúde</li>
-            <li>Contratação de recursos humanos e profissionais de saúde</li>
-            <li>Fornecimento de sistemas de saúde e gestão de indicadores</li>
-            <li>Terceirização de serviços de saúde</li>
-            <li>Gestão de hospitais e unidades de saúde (SAMU, UPA, UBS)</li>
-            <li>Fornecimento de medicamentos, materiais médicos, equipamentos e insumos</li>
-            <li>Fornecimento de equipamentos e tecnologia em saúde</li>
-        </ul>
-            </br>
-        <ul style= "padding-left: 10px">
-            <h5>Tecnologia e soluções em saúde</h5>
-            <li>Data Center (Big Data) de saúde</li>
-            <li>Softwares de saúde</li>
-            <li>Outsourcing de informática e equipamentos de saúde</li>
-            <li>Desenvolvimento de tecnologia para saúde</li>
-            <li>Cartão Saúde e Prontuário Eletrônico</li>
-            <li>TV Saúde</li>
-            <li>Gestor de filas</li>
-            <li>Sistema de Gestão de Saúde Pública</li>
-            <li>Sistema de Gestão Hospitalar</li>
-        </ul>
+            <ul>
+                <li>
+                    A Brain Algorithms oferece soluções personalizadas para empresas em diversas áreas, utilizando algoritmos específicos para otimizar gestão,
+                    vendas, transporte, logística e outras funções. Com o uso de inteligência artificial e Internet das Coisas,
+                    a Brain amplia o acesso à informação, reduz incertezas e potencializa a produtividade e a rentabilidade das empresas,
+                    posicionando-as como líderes no mercado. A empresa tem como objetivo preparar seus clientes para a nova fase da Revolução da Informação,
+                    trazendo resultados que podem impactar significativamente o lucro e a eficiência operacional.
+                </li>
+            </ul>
         </br>`,
-        "site": `<a href="https://ezco.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Ezco Soluções em Gestão</span></a>`,
-        "fale_conosco": "Fale conosco a respeito da Ezco Soluções em Gestão"
+        "site": `<a href="https://brainalgorithms.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Brain Algorithms</span></a>`,
+        "fale_conosco": "Fale conosco a respeito da Brain Algorithmss"
     }
 ]
 
