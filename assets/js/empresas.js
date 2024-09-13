@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="col-lg-3 col-md-4 col-12 item">
                     <div class="widget-brand-info">
                         <div class="widget-brand-info-main">
-                            <a href="index.html" class="logo" title="PathSoft">
+                            <a href="index.html" class="logo" title="Unitá">
                                 <img src="assets/img/Unita/Logo_unita_vertical_branca.png" alt="Unitá Logo" data-loaded="true" style="opacity: 1;">
                             </a>
                         </div>
@@ -203,7 +203,7 @@ const empresas = [
     {
         "id": 1,
         "nome": "Ezco Soluções em Gestão",
-        "logo": "assets/img/ezco/logo_ezco_horizontal.png",
+        "logo": "assets/img/Ezco/logo_ezco_horizontal.png",
         "lista": `
         <ul>
             <h5>Gestão na área da saúde</h5>
@@ -236,7 +236,7 @@ const empresas = [
     {
         "id": 2,
         "nome": "Affarone Construção & Incorporação",
-        "logo": "assets/img/affarone/logo_affarone.png",
+        "logo": "assets/img/Affarone/logo_affarone.png",
         "lista": `
         <ul>
             <h5>Saneamento Básico</h5>
