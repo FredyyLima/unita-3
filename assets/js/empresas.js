@@ -141,10 +141,10 @@ document.addEventListener('DOMContentLoaded', function() {
 						<div class="col-lg-4 col-md-12 col-12 item">
 							<a href="single-service.html" class="iitem item-style iitem-hover" onclick="selecionarEmpresa(3)">
 								<div class="iitem-icon">
-									<i class="material-icons material-icons-outlined md-48">cameraoutdoor</i>
+									<i class="material-icons material-icons-outlined md-48">camera_outdoor</i>
 								</div>
 								<div class="iitem-icon-bg">
-									<i class="material-icons material-icons-outlined">cameraoutdoor</i>
+									<i class="material-icons material-icons-outlined">camera_outdoor</i>
 								</div>
 								<h3 class="iitem-heading item-heading-large">Telsa</h3>
 								<div class="iitem-desc">Inovação em segurança pública, mobilidade e educação. Soluções tecnológicas avançadas para um mundo mais protegido e inteligente. Conectando pessoas, cidades e dados com excelência.</div>
@@ -222,17 +222,19 @@ const empresas = [
     },
     {
         "id": 3,
-        "nome": "Bel Fiore Gelato",
-        "logo": "assets/img/Belfiore/Logo_belfiore_sem_fundo.png",
+        "nome": "Telsa",
+        "logo": "assets/img/Telsa/Logo_Telsa.png",
         "lista": `
             <p>
-            A Belfiore Gelato produz e distribui gelados artesanais como sorvetes, paletas e açaí. Com foco na qualidade e inovação, a empresa controla toda a produção, 
-            desde os ingredientes até a distribuição. 
-            Atende tanto grandes redes quanto consumidores finais por meio de plataformas digitais, destacando-se pela variedade e qualidade dos sabores.
+                A Telsa é uma empresa de tecnologia especializada em soluções inovadoras para segurança pública, mobilidade e educação.
+                Com foco em inteligência operacional, desenvolvemos sistemas avançados que integram hardware e software de ponta. 
+                Nossas soluções abrangem desde body cameras e câmeras térmicas para forças de segurança, até tecnologias para transporte público inteligente e plataformas de gestão educacional.
+                Comprometidos com a excelência e a inovação, buscamos transformar cidades em ambientes mais seguros, conectados e eficientes, sempre com um olhar para a sustentabilidade e o futuro. 
+                Conectamos pessoas, cidades, energia e dados de forma inteligente e harmônica, contribuindo para um mundo mais protegido e tecnologicamente avançado.
             </p>
         `,
-        "site": `<a href="https://belfiorealimentos.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Bel Fiore Gelato</span></a>`,
-        "fale_conosco": "Fale conosco a respeito da Belfiore"
+        //"site": `<a href="https://telsa.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Telsa</span></a>`,
+        "fale_conosco": "Fale conosco a respeito da Telsa"
     },
     {
         "id": 4,
