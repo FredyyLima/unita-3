@@ -212,7 +212,7 @@ com destaque para a terceirização de SAMU 192, Hospitais e Unidades de Saúde 
     {
         "id": 2,
         "nome": "Affarone Construção & Incorporação",
-        "logo": "assets/img/Affarone/logo_affarone.png",
+        "logo": "assets/img/affarone/logo_affarone.png",
         "lista": `
         <p>
 Atua com excelência em obras de infraestrutura e na construção civil, desenvolvendo projetos públicos, residenciais, comerciais e industriais. 
