@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="widget-brand-info">
                         <div class="widget-brand-info-main">
                             <a href="index.html" class="logo" title="Unità">
-                                <img src="assets/img/unita/logo_unita_vertical_branca.png" alt="Unità Logo" data-loaded="true" style="opacity: 1;">
+                                <img src="assets/img/Unita/logo_unita_vertical_branca.png" alt="Unità Logo" data-loaded="true" style="opacity: 1;">
                             </a>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="row flex-nowrap align-items-center justify-content-between">
                 <div class="col-auto header-fixed-col logo-wrapper" >
                     <a href="index.html" class="logo" title="Unità Holding">
-                        <img src="assets/img/unita/Logo_unita_horizontal.png" alt="Unità Holding">
+                        <img src="assets/img/Unita/Logo_unita_horizontal.png" alt="Unità Holding">
                     </a>
                 </div>
                 <div class="col-auto col-xl col-static header-fixed-col d-none d-xl-block">
@@ -194,7 +194,7 @@ const empresas = [
     {
         "id": 1,
         "nome": "Ezco Soluções em Gestão",
-        "logo": "assets/img/ezco/logo_ezco_horizontal.png",
+        "logo": "assets/img/Ezco/logo_ezco_horizontal.png",
         "lista": `
         <p>
 Especializada na gestão e terceirização de serviços públicos, oferecendo uma linha completa de serviços em diferentes áreas como saúde pública,
@@ -212,7 +212,7 @@ com destaque para a terceirização de SAMU 192, Hospitais e Unidades de Saúde 
     {
         "id": 2,
         "nome": "Affarone Construção & Incorporação",
-        "logo": "assets/img/affarone/logo_affarone.png",
+        "logo": "assets/img/Affarone/logo_affarone.png",
         "lista": `
         <p>
 Atua com excelência em obras de infraestrutura e na construção civil, desenvolvendo projetos públicos, residenciais, comerciais e industriais. 
@@ -226,7 +226,7 @@ Com foco em qualidade e sustentabilidade,
     {
         "id": 3,
         "nome": "Telsa",
-        "logo": "assets/img/telsa/Logo_Telsa.png",
+        "logo": "assets/img/Telsa/Logo_Telsa.png",
         "lista": `
             <p>
 Desenvolve soluções tecnológicas aplicadas à segurança pública, mobilidade urbana, energias renováveis e inovação tecnológica. Com sistemas inteligentes,
@@ -239,7 +239,7 @@ Desenvolve soluções tecnológicas aplicadas à segurança pública, mobilidade
     {
         "id": 4,
         "nome": "BRZ Consultoria",
-        "logo": "assets/img/brz/Logo_BRZ.png",
+        "logo": "assets/img/BRZ/Logo_BRZ.png",
         "lista": `
             <p>
 Atua na consultoria estratégica para o setor público e privado, oferecendo soluções em planejamento, estruturação de projetos e gestão. 
@@ -265,7 +265,7 @@ Oferece soluções ágeis e flexíveis em locação de veículos para o setor p�
     {
         "id": 6,
         "nome": "Brain Algorithms - Softwares & Sistemas",
-        "logo": "assets/img/brainalgorithms/logo_brain.png",
+        "logo": "assets/img/Brainalgorithms/logo_brain.png",
         "lista": `
             <p>
 Desenvolve softwares e tecnologias personalizados para o setor público e para empresas, utilizando inteligência artificial, IoT e automação de processos.
