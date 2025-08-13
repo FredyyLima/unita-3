@@ -197,10 +197,13 @@ const empresas = [
         "logo": "assets/img/Ezco/logo_ezco_horizontal.png",
         "lista": `
         <p>
-            A Ezco é especializada na gestão de serviços públicos, oferecendo terceirização completa em áreas como hospitais e unidades de saúde,
-            além de gerir equipamentos e insumos hospitalares. Também fornece tecnologia avançada para monitorar desempenho e otimizar processos administrativos,
-            com foco na eficiência. Atua desde a contratação de serviços até a implementação de soluções digitais,
-            atendendo às necessidades de setores públicos e privados, com destaque em consultoria e projetos complexos.
+Especializada na gestão e terceirização de serviços públicos, oferecendo uma linha completa de serviços em diferentes áreas como saúde pública,
+ educação, assistência social, técnico-administrativos e facilities. </br></br>
+Também fornece tecnologia avançada para monitorar desempenho e 
+otimizar processos administrativos, com foco na eficiência. 
+Atua desde a contratação de serviços até a implementação de soluções digitais, atendendo às necessidades de setores públicos e privados, 
+com destaque para a terceirização de SAMU 192, Hospitais e Unidades de Saúde e Fornecimento de Recursos Humanos em diferentes áreas.
+
         </p>
         </br>`,
         "site": `<a href="https://ezco.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Ezco Soluções em Gestão</span></a>`,
@@ -212,9 +215,9 @@ const empresas = [
         "logo": "assets/img/Affarone/logo_affarone.png",
         "lista": `
         <p>
-            A Affarone é uma empresa do setor de construção civil e incorporação imobiliária, especializada em grandes projetos de infraestrutura, saneamento e pavimentação.
-            Atua em todas as fases do processo construtivo e na incorporação imobiliária, com foco em sustentabilidade.
-            Oferece soluções completas de arquitetura, engenharia e construção, destacando-se pela qualidade e cumprimento de prazos.
+Atua com excelência em obras de infraestrutura e na construção civil, desenvolvendo projetos públicos, residenciais, comerciais e industriais. 
+Com foco em qualidade e sustentabilidade,
+ entrega soluções inteligentes e duradouras para o setor da construção civil, agregando valor urbano e funcionalidade aos projetos que realiza.
         </p>
         `,
         // "site": `<a href="https://affarone.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Affarone Construção & Incorporação</span></a>`,
@@ -226,11 +229,8 @@ const empresas = [
         "logo": "assets/img/Telsa/Logo_Telsa.png",
         "lista": `
             <p>
-                A Telsa é uma empresa de tecnologia especializada em soluções inovadoras para segurança pública, mobilidade e educação.
-                Com foco em inteligência operacional, desenvolvemos sistemas avançados que integram hardware e software de ponta. 
-                Nossas soluções abrangem desde body cameras e câmeras térmicas para forças de segurança, até tecnologias para transporte público inteligente e plataformas de gestão educacional.
-                Comprometidos com a excelência e a inovação, buscamos transformar cidades em ambientes mais seguros, conectados e eficientes, sempre com um olhar para a sustentabilidade e o futuro. 
-                Conectamos pessoas, cidades, energia e dados de forma inteligente e harmônica, contribuindo para um mundo mais protegido e tecnologicamente avançado.
+Desenvolve soluções tecnológicas aplicadas à segurança pública, mobilidade urbana, energias renováveis e inovação tecnológica. Com sistemas inteligentes,
+ conectividade e inovação, promove cidades mais seguras, eficientes e integradas, conectando pessoas, espaços e dados com precisão e excelência operacional.
             </p>
         `,
         //"site": `<a href="https://telsa.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Telsa</span></a>`,
@@ -242,9 +242,8 @@ const empresas = [
         "logo": "assets/img/BRZ/Logo_BRZ.png",
         "lista": `
             <p>
-            A BRZ Participações oferece consultoria empresarial com foco em reestruturação financeira, planejamento tributário e governança corporativa.
-            Auxilia em fusões, aquisições e IPOs, além de elaborar estudos de viabilidade econômica.
-            A empresa se diferencia por estruturar operações complexas e identificar oportunidades de negócios para maximizar a eficiência e reduzir riscos.
+Atua na consultoria estratégica para o setor público e privado, oferecendo soluções em planejamento, estruturação de projetos e gestão. 
+Com foco em inovação, eficiência e impacto, transforma desafios em oportunidades e promove resultados consistentes e sustentáveis para seus clientes.
             </p>
             </br>`,
         "site": `<a href="https://brzparticipacoes.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>BRZ Consultoria</span></a>`,
@@ -252,13 +251,12 @@ const empresas = [
     },
     {
         "id": 5,
-        "nome": "Jeed Mobilidade",
+        "nome": "Jeed Mobilidade - Aluguel de carros",
         "logo": "assets/img/Jeed/logo_jeed.png",
         "lista": `
 <p>
-A Jeed Mobilidade oferece locação e gestão de frotas, incluindo veículos de passeio, ambulâncias e executivos, além de choferes.
- Seu sistema de gestão de frotas abrange manutenção, rastreamento em tempo real e telemetria, garantindo operações seguras e eficientes. 
-A empresa se diferencia pela qualidade no atendimento e uso de tecnologias avançadas para personalizar soluções tanto para empresas privadas quanto para o setor público.
+Oferece soluções ágeis e flexíveis em locação de veículos para o setor público e empresas com uma frota moderna,
+ atendimento personalizado e planos sob medida. Com isso, garante a entrega, conveniência, economia e mobilidade com total segurança e eficiência.
 </p>
         </br>`,
         // "site": `<a href="https://jeedmobilidade.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Jeed Mobilidade</span></a>`,
@@ -266,13 +264,12 @@ A empresa se diferencia pela qualidade no atendimento e uso de tecnologias avan�
     },
     {
         "id": 6,
-        "nome": "Brain Algorithms",
+        "nome": "Brain Algorithms - Softwares & Sistemas",
         "logo": "assets/img/Brainalgorithms/logo_brain.png",
         "lista": `
             <p>
-            A Brain Algorithms desenvolve soluções tecnológicas para automação e gestão empresarial, usando inteligência artificial e big data.
-            A empresa cria softwares personalizados e sistemas integrados, além de consultoria em inovação, ajudando empresas a otimizar processos e aumentar a competitividade. 
-            Atua em projetos complexos, desde o desenvolvimento de aplicativos móveis até sistemas empresariais completos.
+Desenvolve softwares e tecnologias personalizados para o setor público e para empresas, utilizando inteligência artificial, IoT e automação de processos.
+ Com foco em inovação, produtividade e tomada de decisão baseada em dados, entrega soluções robustas e inteligentes para os desafios da era digital.
             </p>
         </br>`,
         "site": `<a href="https://brainalgorithms.com.br" style="width: fit-content" class="btn btn-w240 ripple"><span>Brain Algorithms</span></a>`,
